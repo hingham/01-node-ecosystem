@@ -3,8 +3,29 @@
   "version": "0.0.1",
   "description": "this will be sooooo cool",
   "main": "index.js",
-  "scripts": {},
-  "author": "",
-  "license": "ISC",
-  "dependencies": {}
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --version --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "author": "Hannah Ingham",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.10.0",
+    "faker": "^4.1.0",
+    "jest": "^23.6.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefellows-seattle-javascript-401d28/01-node-ecosystem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codefellows-seattle-javascript-401d28/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/codefellows-seattle-javascript-401d28/01-node-ecosystem#readme"
 }
