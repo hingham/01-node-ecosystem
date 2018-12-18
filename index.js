@@ -1,5 +1,7 @@
 'use strict';
 
+
+//require the js modules to bring in the functions to be tested
 const greet = require('./lib/greet.js');
 const math = require('./lib/arithmetic.js');
 console.log(greet('JOHN'));
